@@ -1,0 +1,17 @@
+_id: env_788bb7e6c721ddc57cb90e096fc0cfeeec5615f1
+type: Environment
+parentId: wrk_847afcff3bfa4681aa44a4d469f7560a
+modified: 1715792908348
+created: 1715792837943
+name: Base Environment
+data:
+  api:
+    url: http://localhost:3000/v1
+dataPropertyOrder:
+  "&":
+    - api
+  "&~|api":
+    - url
+color: null
+isPrivate: false
+metaSortKey: 1715792837943
