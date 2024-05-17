@@ -1,0 +1,44 @@
+_id: req_ae4e3998cb7a4c968e885d38199d139a
+type: Request
+parentId: fld_75903202f5314289ac4226ce42c53f78
+modified: 1715911195761
+created: 1715883297311
+url: "{{ _.api.url }}/mercado-pago/webhooks/payments"
+name: Handle payment webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"action": "payment.update",
+      "api_version": "v1",
+      "data": { "id": 123456 },
+      "date_created": "2021-11-01T02:02:02Z",
+      "id": 123456,
+      "live_mode": false,
+      "type": "payment",
+      "user_id": 557690425
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bfa559b866844d968c3e31237923c724
+  - id: pair_8b942edeeae54583b6aebd607dd21b6d
+    name: x-signature
+    value: ts=1704908010,v1=618c85345248dd820d5fd456117c2ab2ef8eda45a0282ff693eac24131a5e839
+    description: ""
+  - id: pair_0af1c61117684fff80bf832ea7cc9034
+    name: x-request-id
+    value: "1"
+    description: ""
+authentication: {}
+metaSortKey: -1715883297311
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
