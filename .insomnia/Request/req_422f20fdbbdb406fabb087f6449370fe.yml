@@ -1,0 +1,21 @@
+_id: req_422f20fdbbdb406fabb087f6449370fe
+type: Request
+parentId: fld_9f2967fc11394bdcaea2e7a594581909
+modified: 1716351215767
+created: 1716351198640
+url: "{{ _.api.url }}/auth/google/oauth2/callback"
+name: Sign in with google callback
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1716336676672.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

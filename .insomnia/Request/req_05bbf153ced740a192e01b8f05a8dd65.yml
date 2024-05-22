@@ -1,0 +1,21 @@
+_id: req_05bbf153ced740a192e01b8f05a8dd65
+type: Request
+parentId: fld_9f2967fc11394bdcaea2e7a594581909
+modified: 1716351211887
+created: 1716336673364
+url: "{{ _.api.url }}/auth/google/oauth2"
+name: Sign in with google
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1716336676722.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

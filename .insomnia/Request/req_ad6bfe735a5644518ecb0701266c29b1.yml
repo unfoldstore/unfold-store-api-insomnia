@@ -1,0 +1,27 @@
+_id: req_ad6bfe735a5644518ecb0701266c29b1
+type: Request
+parentId: fld_3777ef9127d54fa4ba884efdf124316f
+modified: 1716351313071
+created: 1716351252717
+url: "{{ _.api.url }}/auth/sign-out"
+name: Sign out
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716339940649.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
