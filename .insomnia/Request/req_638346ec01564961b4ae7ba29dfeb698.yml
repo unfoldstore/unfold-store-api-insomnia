@@ -1,10 +1,10 @@
-_id: req_3b957dca6a9b42c9ba5bc8453cbcb515
+_id: req_638346ec01564961b4ae7ba29dfeb698
 type: Request
-parentId: fld_3777ef9127d54fa4ba884efdf124316f
-modified: 1716408891895
-created: 1716349732430
-url: "{{ _.api.url }}/auth/sign-in"
-name: Sign in
+parentId: fld_9631d3733d7d4ab5a5b93c51e61e9465
+modified: 1716413821753
+created: 1716408756685
+url: "{{ _.api.url }}/users/password/reset/validate-token"
+name: Validate token
 description: ""
 method: POST
 body:
@@ -12,14 +12,14 @@ body:
   text: |-
     {
     	"email": "oficial.danieloliveira@gmail.com",
-    	"password": "abcdef"
+    	"token": "a6547593"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1716349732430
+metaSortKey: -1716408726726.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

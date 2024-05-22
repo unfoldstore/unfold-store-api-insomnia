@@ -1,10 +1,10 @@
 _id: req_0b3757e0fcd0441d9da25969a7737d86
 type: Request
 parentId: fld_6e6623607fcc4b9c8510d01182ef4b56
-modified: 1716406163660
+modified: 1716408751134
 created: 1716406106648
 url: "{{ _.api.url }}/users/email/verify/generate-token"
-name: Generate token to verify user email
+name: Generate token
 description: ""
 method: POST
 body: {}

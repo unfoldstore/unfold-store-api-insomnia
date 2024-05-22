@@ -1,25 +1,24 @@
-_id: req_3b957dca6a9b42c9ba5bc8453cbcb515
+_id: req_0b6cf59fd1274b3d81ac8ccf57179e40
 type: Request
-parentId: fld_3777ef9127d54fa4ba884efdf124316f
-modified: 1716408891895
-created: 1716349732430
-url: "{{ _.api.url }}/auth/sign-in"
-name: Sign in
+parentId: fld_9631d3733d7d4ab5a5b93c51e61e9465
+modified: 1716408829145
+created: 1716408726639
+url: "{{ _.api.url }}/users/password/reset/generate-token"
+name: Generate token
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "oficial.danieloliveira@gmail.com",
-    	"password": "abcdef"
+    	"email": "oficial.danieloliveira@gmail.com"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1716349732430
+metaSortKey: -1716408726739
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

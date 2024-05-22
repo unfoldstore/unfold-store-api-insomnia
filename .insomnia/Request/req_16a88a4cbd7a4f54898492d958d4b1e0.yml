@@ -1,10 +1,10 @@
-_id: req_3b957dca6a9b42c9ba5bc8453cbcb515
+_id: req_16a88a4cbd7a4f54898492d958d4b1e0
 type: Request
-parentId: fld_3777ef9127d54fa4ba884efdf124316f
-modified: 1716408891895
-created: 1716349732430
-url: "{{ _.api.url }}/auth/sign-in"
-name: Sign in
+parentId: fld_9631d3733d7d4ab5a5b93c51e61e9465
+modified: 1716413826577
+created: 1716408761445
+url: "{{ _.api.url }}/users/password/reset"
+name: Reset password
 description: ""
 method: POST
 body:
@@ -12,14 +12,15 @@ body:
   text: |-
     {
     	"email": "oficial.danieloliveira@gmail.com",
-    	"password": "abcdef"
+    	"password": "abcdef",
+    	"token": "a6547593"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1716349732430
+metaSortKey: -1716408726714
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
