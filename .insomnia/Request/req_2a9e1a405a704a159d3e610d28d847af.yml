@@ -1,0 +1,36 @@
+_id: req_2a9e1a405a704a159d3e610d28d847af
+type: Request
+parentId: fld_a3a878f9d52845818aa377ad71af84f1
+modified: 1716352709977
+created: 1715962666356
+url: "{{ _.api.url }}/products"
+name: Read product list
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_65b0a019d554494eba5accaa4a7641ab
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_5e2a21b4b73d42ccab925c53ecea7d76
+    name: limit
+    value: "100"
+    description: ""
+  - id: pair_631fa3862f294c2586d1678464c29b22
+    name: anime
+    value: Sword art online
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1715978521973.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

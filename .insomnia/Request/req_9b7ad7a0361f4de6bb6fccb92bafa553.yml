@@ -1,0 +1,23 @@
+_id: req_9b7ad7a0361f4de6bb6fccb92bafa553
+type: Request
+parentId: fld_a3a878f9d52845818aa377ad71af84f1
+modified: 1716352805431
+created: 1715989483933
+url: "{{ _.api.url }}/products/6647dfd01a427b3c12cd8f30"
+name: Delete product
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1715967951561.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

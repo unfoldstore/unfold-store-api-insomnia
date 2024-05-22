@@ -1,0 +1,38 @@
+_id: req_4cde61f009a8423595a01cc2147a3ca2
+type: Request
+parentId: fld_a3a878f9d52845818aa377ad71af84f1
+modified: 1716352794916
+created: 1715983807179
+url: "{{ _.api.url }}/products"
+name: Create product
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "character": "Kirito",
+      "anime": "Sword Art Online",
+      "line": "TestLine",
+      "publisher": "TestPublisher",
+      "price": 1000,
+      "stockQuantity": 10,
+      "quantitySold": 0,
+      "description": "Descrição legal!",
+      "highlighted": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1715983807179
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

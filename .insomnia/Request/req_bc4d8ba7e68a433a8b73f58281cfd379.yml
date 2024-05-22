@@ -1,0 +1,31 @@
+_id: req_bc4d8ba7e68a433a8b73f58281cfd379
+type: Request
+parentId: fld_4b00ce41b148494d9601e314dbb388fc
+modified: 1716352810074
+created: 1716303157296
+url: "{{ _.api.url }}/users"
+name: Read user list
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ce8c9e3b955c401e942968b15dc213e0
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_15fb0396107a484da1456f3f071f7dd4
+    name: limit
+    value: "25"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716303157296
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

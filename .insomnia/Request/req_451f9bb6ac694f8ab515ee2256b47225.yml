@@ -1,0 +1,47 @@
+_id: req_451f9bb6ac694f8ab515ee2256b47225
+type: Request
+parentId: fld_20de47a0d751436d9d59bc93cab95c60
+modified: 1716352791084
+created: 1716058033947
+url: "{{ _.api.url }}/products/6647da27acf96645a4f72032/images/16"
+name: Delete product image
+description: ""
+method: DELETE
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: images
+      value: "{% file '/home/ondanieldev/Pictures/Screenshots/Screenshot from
+        2024-05-17 20-34-50.png' %}"
+      id: pair_4ca60a0081944ee489e39016813f200c
+      type: file
+      fileName: /home/ondanieldev/Pictures/Screenshots/Screenshot from 2024-05-17
+        20-34-50.png
+      disabled: false
+    - id: pair_d28b6c0807dc4d28beb575ddeacb0224
+      name: images
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/ondanieldev/Pictures/Screenshots/Screenshot from 2024-05-17
+        13-40-05.png
+      disabled: false
+parameters:
+  - id: pair_12abada9b98341629625f20f3337e45d
+    name: imageId
+    value: https://unfold-store-images.s3.sa-east-1.amazonaws.com/25ad01a1-4e01-4c61-a1bd-6dd2f7b175c1.png
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1715979843274.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

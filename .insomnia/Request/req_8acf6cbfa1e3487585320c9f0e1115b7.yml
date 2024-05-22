@@ -1,0 +1,44 @@
+_id: req_8acf6cbfa1e3487585320c9f0e1115b7
+type: Request
+parentId: fld_a3a878f9d52845818aa377ad71af84f1
+modified: 1716352800377
+created: 1715988638166
+url: "{{ _.api.url }}/products/6647d70afc438183a9da6727"
+name: Update product
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "character": "Kirito4",
+      "anime": "Sword Art Online4",
+      "line": "TestLine4",
+      "publisher": "TestPublisher4",
+      "price": 4000,
+      "stockQuantity": 40,
+      "quantitySold": 4,
+      "description": "Descrição legal!4",
+      "highlighted": true,
+    	"MFCId": "4",
+    	"mercadoShopsInCashLink": "4",
+    	"mercadoShops3xLink": "4",
+    	"shopeeLink": "4",
+    	"olxLink": "4",
+    	"preview": "4"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1715973236767.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
