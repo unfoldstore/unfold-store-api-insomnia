@@ -1,0 +1,23 @@
+_id: req_0b3757e0fcd0441d9da25969a7737d86
+type: Request
+parentId: fld_6e6623607fcc4b9c8510d01182ef4b56
+modified: 1716406163660
+created: 1716406106648
+url: "{{ _.api.url }}/users/email/verify/generate-token"
+name: Generate token to verify user email
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716377700039.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

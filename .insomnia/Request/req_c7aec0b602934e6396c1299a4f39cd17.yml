@@ -1,25 +1,26 @@
-_id: req_3b957dca6a9b42c9ba5bc8453cbcb515
+_id: req_c7aec0b602934e6396c1299a4f39cd17
 type: Request
-parentId: fld_3777ef9127d54fa4ba884efdf124316f
-modified: 1716407164406
-created: 1716349732430
-url: "{{ _.api.url }}/auth/sign-in"
-name: Sign in
+parentId: fld_bb590c8d34744f3690412aa93d080f6b
+modified: 1716406082537
+created: 1716405667649
+url: "{{ _.api.url }}/users/email"
+name: Update user email
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "oficial.danieloliveira@gmail.com",
-    	"password": "123456"
+    	"email": "olidanielcoc2@gmail.com"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
-metaSortKey: -1716349732430
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716405667649
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

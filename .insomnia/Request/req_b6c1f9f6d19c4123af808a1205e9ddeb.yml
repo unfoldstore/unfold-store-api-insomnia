@@ -1,25 +1,26 @@
-_id: req_3b957dca6a9b42c9ba5bc8453cbcb515
+_id: req_b6c1f9f6d19c4123af808a1205e9ddeb
 type: Request
-parentId: fld_3777ef9127d54fa4ba884efdf124316f
-modified: 1716407164406
-created: 1716349732430
-url: "{{ _.api.url }}/auth/sign-in"
-name: Sign in
+parentId: fld_6e6623607fcc4b9c8510d01182ef4b56
+modified: 1716406325150
+created: 1716406155241
+url: "{{ _.api.url }}/users/email/verify"
+name: Verify user email
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "oficial.danieloliveira@gmail.com",
-    	"password": "123456"
+    	"token": "37a7c3a9"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
-metaSortKey: -1716349732430
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716406155241
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
