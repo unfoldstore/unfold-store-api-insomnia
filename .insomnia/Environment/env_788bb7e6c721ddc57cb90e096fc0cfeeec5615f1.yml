@@ -1,17 +1,20 @@
 _id: env_788bb7e6c721ddc57cb90e096fc0cfeeec5615f1
 type: Environment
 parentId: wrk_847afcff3bfa4681aa44a4d469f7560a
-modified: 1715792908348
+modified: 1716351302239
 created: 1715792837943
 name: Base Environment
 data:
   api:
     url: http://localhost:3000/v1
+    token: "{% response 'body', 'req_3b957dca6a9b42c9ba5bc8453cbcb515',
+      'b64::JC50b2tlbg==::46b', 'never', 60 %}"
 dataPropertyOrder:
   "&":
     - api
   "&~|api":
     - url
+    - token
 color: null
 isPrivate: false
 metaSortKey: 1715792837943
