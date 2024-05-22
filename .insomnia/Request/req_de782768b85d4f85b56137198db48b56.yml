@@ -1,7 +1,7 @@
 _id: req_de782768b85d4f85b56137198db48b56
 type: Request
 parentId: fld_3777ef9127d54fa4ba884efdf124316f
-modified: 1716351173351
+modified: 1716402479829
 created: 1716350348673
 url: "{{ _.api.url }}/auth/sign-up"
 name: Sign up
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "oficial.danieloliveira2@gmail.com",
+    	"email": "oficial.danieloliveira@gmail.com",
     	"password": "123456",
     	"name": "daniel"
     }

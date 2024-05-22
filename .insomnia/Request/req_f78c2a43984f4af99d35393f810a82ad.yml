@@ -1,13 +1,21 @@
-_id: req_bc4d8ba7e68a433a8b73f58281cfd379
+_id: req_f78c2a43984f4af99d35393f810a82ad
 type: Request
 parentId: fld_4b00ce41b148494d9601e314dbb388fc
-modified: 1716403893002
-created: 1716303157296
-url: "{{ _.api.url }}/users"
-name: Read user list
+modified: 1716403868408
+created: 1716403263231
+url: "{{ _.api.url }}/users/664e3a9c03aadbed33b87dea"
+name: Update user
 description: ""
-method: GET
-body: {}
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "olidanielcoc2@gmail.com",
+    	"isAdmin": true,
+    	"name": "Daniel",
+    	"password": "123456"
+    }
 parameters:
   - id: pair_ce8c9e3b955c401e942968b15dc213e0
     name: page
@@ -17,11 +25,13 @@ parameters:
     name: limit
     value: "25"
     description: ""
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   token: "{{ _.api.token }}"
-metaSortKey: -1716303157333.5
+metaSortKey: -1716303157321
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
