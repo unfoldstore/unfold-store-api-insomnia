@@ -1,0 +1,31 @@
+_id: req_365c64c2fc954cfbb2a5330695063726
+type: Request
+parentId: fld_5891789c52d247e3af85b00d4a9496a9
+modified: 1716577154397
+created: 1716570504176
+url: "{{ _.api.url }}/orders"
+name: Read order list
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e2a8097760cd4855be8be83b9da1bb61
+    name: page
+    value: "2"
+    description: ""
+  - id: pair_61666d82099a4042bcf63ce987e3813a
+    name: limit
+    value: "25"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716570504176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

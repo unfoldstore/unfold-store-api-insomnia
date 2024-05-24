@@ -1,0 +1,23 @@
+_id: req_af2cbbf4ec744253a73508e142516852
+type: Request
+parentId: fld_5891789c52d247e3af85b00d4a9496a9
+modified: 1716577204858
+created: 1716577195705
+url: "{{ _.api.url }}/orders/6650e348af117f10ca1068ac"
+name: Delete order
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716428948918.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

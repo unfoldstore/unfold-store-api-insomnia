@@ -1,7 +1,7 @@
 _id: req_2a9e1a405a704a159d3e610d28d847af
 type: Request
 parentId: fld_a3a878f9d52845818aa377ad71af84f1
-modified: 1716352709977
+modified: 1716573198369
 created: 1715962666356
 url: "{{ _.api.url }}/products"
 name: Read product list
@@ -19,9 +19,27 @@ parameters:
     description: ""
   - id: pair_631fa3862f294c2586d1678464c29b22
     name: anime
-    value: Sword art online
+    value: jujutsu
     description: ""
-    disabled: false
+    disabled: true
+  - id: pair_2c4a2a26d7e94b8c8419615df0e50ddd
+    name: character
+    value: goku
+    description: ""
+  - id: pair_88b07ffcf4404e1f962b6477d04e321e
+    name: line
+    value: kyo
+    description: ""
+    disabled: true
+  - id: pair_17f193f3f49a4466a81d8f2e0abeaed0
+    name: price
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_08746e11f079447aad1a370e35f63871
+    name: publisher
+    value: banpresto
+    description: ""
 headers: []
 authentication:
   type: bearer

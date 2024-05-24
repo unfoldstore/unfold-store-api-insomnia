@@ -1,9 +1,9 @@
 _id: req_0b3e2d75aa644d49ae3074c3d82ef8ac
 type: Request
 parentId: fld_20de47a0d751436d9d59bc93cab95c60
-modified: 1716352786208
+modified: 1716479575757
 created: 1715995730666
-url: "{{ _.api.url }}/products/6647da27acf96645a4f72032/images"
+url: "{{ _.api.url }}/products/65a708b91507566e14f8d24b/images"
 name: Create product images
 description: ""
 method: POST

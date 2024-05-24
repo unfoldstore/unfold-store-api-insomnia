@@ -1,7 +1,7 @@
 _id: req_7a6ddbdd7d1c40018de7e4072202aa2b
 type: Request
 parentId: fld_4b00ce41b148494d9601e314dbb388fc
-modified: 1716402843526
+modified: 1716485803404
 created: 1716402792069
 url: "{{ _.api.url }}/users"
 name: Create user
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "olidanielcoc@gmail.com",
+    	"email": " olidanielcoc4@gmail.cOm ",
     	"isAdmin": true,
-    	"password": "123456",
+    	"password": " 1 ",
     	"name": "Daniel"
     }
 parameters:

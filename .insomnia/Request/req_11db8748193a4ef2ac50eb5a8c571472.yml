@@ -1,0 +1,37 @@
+_id: req_11db8748193a4ef2ac50eb5a8c571472
+type: Request
+parentId: fld_5891789c52d247e3af85b00d4a9496a9
+modified: 1716577212272
+created: 1716575355950
+url: "{{ _.api.url }}/orders"
+name: Create order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"comprador": "eu",
+    	"data": "{% now 'iso-8601', '' %}",
+    	"figures": "test",
+    	"finalidade": "Estoque",
+    	"observation": "obs",
+    	"precoDeCusto": 100,
+    	"precoDeVenda": 200,
+    	"status": "Em Estoque"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716489615457.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

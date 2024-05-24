@@ -1,0 +1,41 @@
+_id: req_a95bda4972f74bbda38d10ff37f7f51e
+type: Request
+parentId: fld_5891789c52d247e3af85b00d4a9496a9
+modified: 1716577207526
+created: 1716577138013
+url: "{{ _.api.url }}/orders/6650e348af117f10ca1068ac"
+name: Update order
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"comprador": "eu2",
+    	"data": "{% now 'iso-8601', '' %}",
+    	"figures": "test2",
+    	"finalidade": "Estoque",
+    	"observation": "obs2",
+    	"precoDeCusto": 1000,
+    	"precoDeVenda": 2000,
+    	"status": "Em Estoque"
+    }
+parameters:
+  - id: pair_0ac24cf7f74b4f33a32c2a2fba5c2645
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716449171098.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
