@@ -1,7 +1,7 @@
 _id: req_11db8748193a4ef2ac50eb5a8c571472
 type: Request
 parentId: fld_5891789c52d247e3af85b00d4a9496a9
-modified: 1716577212272
+modified: 1718395452222
 created: 1716575355950
 url: "{{ _.api.url }}/orders"
 name: Create order
@@ -11,14 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"comprador": "eu",
     	"data": "{% now 'iso-8601', '' %}",
-    	"figures": "test",
     	"finalidade": "Estoque",
     	"observation": "obs",
-    	"precoDeCusto": 100,
-    	"precoDeVenda": 200,
-    	"status": "Em Estoque"
+    	"status": "Em Estoque",
+    	"productIds": ["65aac79ec2d37838076449be", "65d742ca3467d4c8e5dfec71"],
+    	"userId": "66477db0c7fdded55a92e91b"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_51f6576744874db4807d74ceee425800
 type: Request
 parentId: fld_19a813ca825943b4ae3c8f367c544964
-modified: 1715873886463
+modified: 1718395791058
 created: 1715792848909
 url: "{{ _.api.url }}/payments"
 name: Create payment
@@ -11,20 +11,23 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"amount": 10,
+    	"amount": 822.98,
     	"buyerEmail": "oficial.danieloliveira@gmail.com",
     	"buyerIdentificationType": "cpf",
     	"buyerIdentificationNumber": "49713767047",
     	"installments": 1,
     	"gatewayRefIssuer": "id",
-    	"gatewayRefMethod": "",
-    	"gatewayRefToken": "token"
+    	"gatewayRefMethod": "credit_card",
+    	"gatewayRefToken": "token",
+    	"orderId": "666ca34ecb692e0fbdc73c96"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
 metaSortKey: -1715792848909
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_4cde61f009a8423595a01cc2147a3ca2
 type: Request
 parentId: fld_a3a878f9d52845818aa377ad71af84f1
-modified: 1716352794916
+modified: 1718396343423
 created: 1715983807179
 url: "{{ _.api.url }}/products"
 name: Create product
@@ -11,15 +11,22 @@ body:
   mimeType: application/json
   text: |-
     {
+    	"MFCId": "",
+    	"anime": "Sword Art Online",
       "character": "Kirito",
-      "anime": "Sword Art Online",
-      "line": "TestLine",
-      "publisher": "TestPublisher",
-      "price": 1000,
-      "stockQuantity": 10,
-      "quantitySold": 0,
       "description": "Descrição legal!",
-      "highlighted": false
+      "highlighted": false,
+      "line": "TestLine",
+    	"mercadoShops3xLink": "",
+    	"mercadoShopsInCashLink": "",
+    	"olxLink": "",
+    	"preview": "",
+    	"price": 1000,
+    	"buyingPrice": "",
+    	"publisher": "TestPublisher",
+      "shopeeLink": "",
+    	"stockQuantity": 10,
+      "quantitySold": 0
     }
 parameters: []
 headers:

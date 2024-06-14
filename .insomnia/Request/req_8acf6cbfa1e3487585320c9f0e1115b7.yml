@@ -1,7 +1,7 @@
 _id: req_8acf6cbfa1e3487585320c9f0e1115b7
 type: Request
 parentId: fld_a3a878f9d52845818aa377ad71af84f1
-modified: 1716352800377
+modified: 1718396351543
 created: 1715988638166
 url: "{{ _.api.url }}/products/6647d70afc438183a9da6727"
 name: Update product
@@ -11,21 +11,22 @@ body:
   mimeType: application/json
   text: |-
     {
-      "character": "Kirito4",
-      "anime": "Sword Art Online4",
-      "line": "TestLine4",
-      "publisher": "TestPublisher4",
-      "price": 4000,
-      "stockQuantity": 40,
-      "quantitySold": 4,
-      "description": "Descrição legal!4",
-      "highlighted": true,
-    	"MFCId": "4",
-    	"mercadoShopsInCashLink": "4",
-    	"mercadoShops3xLink": "4",
-    	"shopeeLink": "4",
-    	"olxLink": "4",
-    	"preview": "4"
+    	"MFCId": "",
+    	"anime": "Sword Art Online",
+      "character": "Kirito",
+      "description": "Descrição legal!",
+      "highlighted": false,
+      "line": "TestLine",
+    	"mercadoShops3xLink": "",
+    	"mercadoShopsInCashLink": "",
+    	"olxLink": "",
+    	"preview": "",
+    	"price": 1000,
+    	"buyingPrice": "",
+    	"publisher": "TestPublisher",
+      "shopeeLink": "",
+    	"stockQuantity": 10,
+      "quantitySold": 0
     }
 parameters: []
 headers:

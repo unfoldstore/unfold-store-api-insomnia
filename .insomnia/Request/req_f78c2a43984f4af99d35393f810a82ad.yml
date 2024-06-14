@@ -1,7 +1,7 @@
 _id: req_f78c2a43984f4af99d35393f810a82ad
 type: Request
 parentId: fld_4b00ce41b148494d9601e314dbb388fc
-modified: 1716403868408
+modified: 1718396437600
 created: 1716403263231
 url: "{{ _.api.url }}/users/664e3a9c03aadbed33b87dea"
 name: Update user
@@ -14,7 +14,8 @@ body:
     	"email": "olidanielcoc2@gmail.com",
     	"isAdmin": true,
     	"name": "Daniel",
-    	"password": "123456"
+    	"password": "123456",
+    	"removePassword": false
     }
 parameters:
   - id: pair_ce8c9e3b955c401e942968b15dc213e0

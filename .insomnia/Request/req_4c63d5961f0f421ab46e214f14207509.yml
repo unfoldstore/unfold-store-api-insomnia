@@ -1,0 +1,30 @@
+_id: req_4c63d5961f0f421ab46e214f14207509
+type: Request
+parentId: fld_f9bd2bf5999d4638b2f5263b95167108
+modified: 1718395700580
+created: 1718395653412
+url: "{{ _.api.url }}/payments/orders"
+name: Create payment order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"productIds": ["65aac79ec2d37838076449be", "65d742ca3467d4c8e5dfec71"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1718395653412
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

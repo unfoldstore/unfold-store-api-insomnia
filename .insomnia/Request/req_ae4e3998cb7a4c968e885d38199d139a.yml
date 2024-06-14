@@ -1,7 +1,7 @@
 _id: req_ae4e3998cb7a4c968e885d38199d139a
 type: Request
 parentId: fld_75903202f5314289ac4226ce42c53f78
-modified: 1715911195761
+modified: 1718396190007
 created: 1715883297311
 url: "{{ _.api.url }}/mercado-pago/webhooks/payments"
 name: Handle payment webhook
@@ -13,12 +13,19 @@ body:
     {
     	"action": "payment.update",
       "api_version": "v1",
-      "data": { "id": 123456 },
+      "data": { 
+    		"id": 123456,
+    		"description": "",
+    		"merchant_order": "",
+    		"payment_id": "",
+    		"site_id": ""
+    	},
       "date_created": "2021-11-01T02:02:02Z",
       "id": 123456,
       "live_mode": false,
       "type": "payment",
-      "user_id": 557690425
+      "user_id": 557690425,
+    	"version": ""
     }
 parameters: []
 headers:
