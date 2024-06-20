@@ -1,7 +1,7 @@
 _id: req_365c64c2fc954cfbb2a5330695063726
 type: Request
 parentId: fld_5891789c52d247e3af85b00d4a9496a9
-modified: 1716577154397
+modified: 1718809594788
 created: 1716570504176
 url: "{{ _.api.url }}/orders"
 name: Read order list
@@ -11,12 +11,57 @@ body: {}
 parameters:
   - id: pair_e2a8097760cd4855be8be83b9da1bb61
     name: page
-    value: "2"
+    value: "1"
     description: ""
   - id: pair_61666d82099a4042bcf63ce987e3813a
     name: limit
-    value: "25"
+    value: "100"
     description: ""
+  - id: pair_6a85a1acb9ad4e75bc3d65a2a814fd0b
+    name: comprador
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_5c7f6f37218940469878fd71138a3929
+    name: data
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_3b51f690d91249c8a4d6f151be40d5a5
+    name: figures
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_70d4e042ac3e4389bf7aa3ce9371522d
+    name: finalidade
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_7d168a91ede14354b4a56653ac4680dd
+    name: observation
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_7e697b1719da452da1369fe9f478d022
+    name: precoDeCusto
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_2c292838827f426abb8625875e006f38
+    name: precoDeVenda
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_92e1133e4c884afaa691a84c6310006c
+    name: status
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_f9afce90afb14f21a283d91dc0ba8fcd
+    name: userId
+    value: ""
+    description: ""
+    disabled: true
 headers: []
 authentication:
   type: bearer

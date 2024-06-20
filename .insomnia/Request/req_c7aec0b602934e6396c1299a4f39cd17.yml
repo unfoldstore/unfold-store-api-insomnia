@@ -1,7 +1,7 @@
 _id: req_c7aec0b602934e6396c1299a4f39cd17
 type: Request
 parentId: fld_bb590c8d34744f3690412aa93d080f6b
-modified: 1716406082537
+modified: 1718399948515
 created: 1716405667649
 url: "{{ _.api.url }}/users/email"
 name: Update user email
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "olidanielcoc2@gmail.com"
+    	"email": "olidanielcoc@gmail.com"
     }
 parameters: []
 headers:

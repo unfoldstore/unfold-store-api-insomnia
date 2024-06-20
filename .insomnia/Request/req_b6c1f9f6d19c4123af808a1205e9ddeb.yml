@@ -1,7 +1,7 @@
 _id: req_b6c1f9f6d19c4123af808a1205e9ddeb
 type: Request
 parentId: fld_6e6623607fcc4b9c8510d01182ef4b56
-modified: 1716406325150
+modified: 1718399973258
 created: 1716406155241
 url: "{{ _.api.url }}/users/email/verify"
 name: Verify user email
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"token": "37a7c3a9"
+    	"token": "ba7394e6"
     }
 parameters: []
 headers:

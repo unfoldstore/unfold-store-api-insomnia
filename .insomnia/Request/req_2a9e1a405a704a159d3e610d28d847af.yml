@@ -1,7 +1,7 @@
 _id: req_2a9e1a405a704a159d3e610d28d847af
 type: Request
 parentId: fld_a3a878f9d52845818aa377ad71af84f1
-modified: 1716573198369
+modified: 1718814117438
 created: 1715962666356
 url: "{{ _.api.url }}/products"
 name: Read product list
@@ -19,27 +19,84 @@ parameters:
     description: ""
   - id: pair_631fa3862f294c2586d1678464c29b22
     name: anime
-    value: jujutsu
+    value: dragon
+    description: ""
+    disabled: false
+  - id: pair_2c4a2a26d7e94b8c8419615df0e50ddd
+    name: buyingPrice
+    value: ""
     description: ""
     disabled: true
-  - id: pair_2c4a2a26d7e94b8c8419615df0e50ddd
-    name: character
-    value: goku
-    description: ""
   - id: pair_88b07ffcf4404e1f962b6477d04e321e
-    name: line
-    value: kyo
+    name: character
+    value: ""
     description: ""
     disabled: true
   - id: pair_17f193f3f49a4466a81d8f2e0abeaed0
-    name: price
+    name: description
     value: ""
     description: ""
     disabled: true
   - id: pair_08746e11f079447aad1a370e35f63871
-    name: publisher
+    name: highlighted
     value: banpresto
     description: ""
+    disabled: true
+  - id: pair_7493b56bc26d4b9b85c4f1b02ce7dde4
+    name: line
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_f6ecd3299762415081613111bd1c288d
+    name: mercadoShops3xLink
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_bf3b35cfef7d41bebd5be76aa239c333
+    name: mercadoShopsInCashLink
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_84697d950ce444a081ef28e20855deac
+    name: MFCId
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_16628997edd04126a6102937b1b6c7d7
+    name: observation
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_8f9e1cbcddf04d73a4bd1f97c403e023
+    name: olxLink
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_41b8696443354b4e91b8096c80adafaf
+    name: price
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_869a6ba492664a3bbd8f17085e34c191
+    name: publisher
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_f484e34ec2de421288fa56bec612b3cd
+    name: quantitySold
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_42e7f9b3914a492cba20da66313779ab
+    name: shopeeLink
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_af55d0744cbf4e25b46e46f8104104d6
+    name: stockQuantity
+    value: ""
+    description: ""
+    disabled: true
 headers: []
 authentication:
   type: bearer

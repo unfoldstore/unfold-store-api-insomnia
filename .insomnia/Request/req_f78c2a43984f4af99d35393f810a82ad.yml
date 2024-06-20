@@ -1,9 +1,9 @@
 _id: req_f78c2a43984f4af99d35393f810a82ad
 type: Request
 parentId: fld_4b00ce41b148494d9601e314dbb388fc
-modified: 1718396437600
+modified: 1718400257482
 created: 1716403263231
-url: "{{ _.api.url }}/users/664e3a9c03aadbed33b87dea"
+url: "{{ _.api.url }}/users/664f7e93c0f58436b26732e6"
 name: Update user
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "olidanielcoc2@gmail.com",
+    	"email": "olidanielcoc@gmail.com",
     	"isAdmin": true,
     	"name": "Daniel",
     	"password": "123456",

@@ -1,0 +1,35 @@
+_id: req_bf7c2c5df01d4737a9384e9a7d5cc200
+type: Request
+parentId: fld_19a813ca825943b4ae3c8f367c544964
+modified: 1718399824008
+created: 1718399610023
+url: "{{ _.api.url }}/payments"
+name: Read payment list
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_de372ca7c7e541329005f10932285e29
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_a873b338aa1e4172bb330e69c28481b3
+    name: limit
+    value: "100"
+    description: ""
+  - id: pair_48b32bdb7ac045a1b5619662732ed423
+    name: orderId
+    value: 666ca34ecb692e0fbdc73c96
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1715792848859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

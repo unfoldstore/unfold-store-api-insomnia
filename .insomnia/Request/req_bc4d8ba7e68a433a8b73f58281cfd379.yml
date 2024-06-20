@@ -1,7 +1,7 @@
 _id: req_bc4d8ba7e68a433a8b73f58281cfd379
 type: Request
 parentId: fld_4b00ce41b148494d9601e314dbb388fc
-modified: 1716403893002
+modified: 1718809978667
 created: 1716303157296
 url: "{{ _.api.url }}/users"
 name: Read user list
@@ -17,6 +17,26 @@ parameters:
     name: limit
     value: "25"
     description: ""
+  - id: pair_7eb9462e83494ccbbe3a921756911a30
+    name: email
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_a07e1c7b79a74f37b9c6ef479c7787d1
+    name: emailVerified
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_6d104794992c437e922c7020495625fc
+    name: isAdmin
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_73e93845037240f980a283e5d6f2f451
+    name: name
+    value: ""
+    description: ""
+    disabled: true
 headers: []
 authentication:
   type: bearer
