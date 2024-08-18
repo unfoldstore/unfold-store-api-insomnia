@@ -1,7 +1,7 @@
 _id: req_4cde61f009a8423595a01cc2147a3ca2
 type: Request
 parentId: fld_a3a878f9d52845818aa377ad71af84f1
-modified: 1718396343423
+modified: 1718911711311
 created: 1715983807179
 url: "{{ _.api.url }}/products"
 name: Create product
@@ -22,7 +22,7 @@ body:
     	"olxLink": "",
     	"preview": "",
     	"price": 1000,
-    	"buyingPrice": "",
+    	"buyingPrice": 500,
     	"publisher": "TestPublisher",
       "shopeeLink": "",
     	"stockQuantity": 10,

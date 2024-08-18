@@ -1,0 +1,33 @@
+_id: req_b3c07fa9c42d4c5db8a9e9acfdd9973d
+type: Request
+parentId: fld_2392603610af47f5846ecc70e67f40ed
+modified: 1723957000678
+created: 1723930199779
+url: "{{ _.api.url }}/migrate-from-mongo-to-postgresSFhEeDQwOHFKSG95YWxvCg=="
+name: Migrate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rollback": true
+    }
+parameters: []
+headers:
+  - id: pair_05b02175989b4ad09b4c18a402b9b065
+    name: authorization
+    value: "{{ _.api.migrationToken }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_dc8540b547df44a7af186a4a41e97b25
+authentication: {}
+metaSortKey: -1723930199779
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
