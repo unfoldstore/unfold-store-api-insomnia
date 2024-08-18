@@ -1,29 +1,21 @@
-_id: req_b3c07fa9c42d4c5db8a9e9acfdd9973d
+_id: req_0b15d9e8f1f4426396dc78ce0cb680aa
 type: Request
 parentId: fld_2392603610af47f5846ecc70e67f40ed
-modified: 1723988383394
-created: 1723930199779
-url: "{{ _.api.url }}/migrate-from-mongo-to-postgres"
-name: Migrate from Mongo to Postgres
+modified: 1723988400478
+created: 1723988390265
+url: "{{ _.api.url }}/migrate-between-s3"
+name: Migrate between S3
 description: ""
 method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"rollback": false
-    }
+body: {}
 parameters: []
 headers:
   - id: pair_05b02175989b4ad09b4c18a402b9b065
     name: authorization
     value: "{{ _.api.migrationToken }}"
     description: ""
-  - name: Content-Type
-    value: application/json
-    id: pair_dc8540b547df44a7af186a4a41e97b25
 authentication: {}
-metaSortKey: -1723930199779
+metaSortKey: -1723820662294.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
