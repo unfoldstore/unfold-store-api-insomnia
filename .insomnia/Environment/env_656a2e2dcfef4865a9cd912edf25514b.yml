@@ -1,17 +1,19 @@
 _id: env_656a2e2dcfef4865a9cd912edf25514b
 type: Environment
 parentId: env_788bb7e6c721ddc57cb90e096fc0cfeeec5615f1
-modified: 1723956976273
+modified: 1723994258832
 created: 1715911332557
 name: production
 data:
   api:
     url: https://api.unfoldstore.com.br/v1
+    migrationToken: SFhEeDQwOHFKSG95YWxvCg==
 dataPropertyOrder:
   "&":
     - api
   "&~|api":
     - url
+    - migrationToken
 color: "#ff0000"
 isPrivate: false
 metaSortKey: 1715911332557
