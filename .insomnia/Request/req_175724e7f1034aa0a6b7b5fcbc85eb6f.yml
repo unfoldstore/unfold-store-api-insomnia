@@ -1,0 +1,23 @@
+_id: req_175724e7f1034aa0a6b7b5fcbc85eb6f
+type: Request
+parentId: fld_3777ef9127d54fa4ba884efdf124316f
+modified: 1724027946850
+created: 1724027930865
+url: "{{ _.api.url }}/auth/ping"
+name: Ping
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1724027930865
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

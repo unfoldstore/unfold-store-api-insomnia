@@ -1,0 +1,23 @@
+_id: req_f00e5507177a41a4a9a0b2d2e03c0cc4
+type: Request
+parentId: fld_dc691f8b76284cd8bd05493c42fc20af
+modified: 1724027882867
+created: 1724027776852
+url: "{{ _.api.url }}/users/profile"
+name: Read user profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1724027776852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

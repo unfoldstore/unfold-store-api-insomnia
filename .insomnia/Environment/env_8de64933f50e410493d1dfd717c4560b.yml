@@ -1,12 +1,12 @@
-_id: env_656a2e2dcfef4865a9cd912edf25514b
+_id: env_8de64933f50e410493d1dfd717c4560b
 type: Environment
 parentId: env_788bb7e6c721ddc57cb90e096fc0cfeeec5615f1
-modified: 1724027846108
-created: 1715911332557
-name: production
+modified: 1724027920652
+created: 1724027847383
+name: development
 data:
   api:
-    url: https://api.unfoldstore.com.br/v1
+    url: http://localhost:3000/v1
     migrationToken: SFhEeDQwOHFKSG95YWxvCg==
     token: "{% response 'body', 'req_3b957dca6a9b42c9ba5bc8453cbcb515',
       'b64::JC51c2VyVG9rZW4udG9rZW4=::46b', 'never', 60 %}"
@@ -17,6 +17,6 @@ dataPropertyOrder:
     - url
     - migrationToken
     - token
-color: "#ff0000"
+color: "#00ff11"
 isPrivate: false
-metaSortKey: 1715911332557
+metaSortKey: 1724027847383
