@@ -1,7 +1,7 @@
 _id: req_2a9e1a405a704a159d3e610d28d847af
 type: Request
 parentId: fld_a3a878f9d52845818aa377ad71af84f1
-modified: 1718814117438
+modified: 1724533445301
 created: 1715962666356
 url: "{{ _.api.url }}/products"
 name: Read product list
@@ -21,7 +21,7 @@ parameters:
     name: anime
     value: dragon
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_2c4a2a26d7e94b8c8419615df0e50ddd
     name: buyingPrice
     value: ""
@@ -97,6 +97,14 @@ parameters:
     value: ""
     description: ""
     disabled: true
+  - id: pair_4a21c49cbef7448fb4866cf5f88a0636
+    name: relations
+    value: images
+    description: ""
+  - id: pair_50d21ff91e914b209c9950cfa258ee10
+    name: relations
+    value: orderRelations
+    description: ""
 headers: []
 authentication:
   type: bearer

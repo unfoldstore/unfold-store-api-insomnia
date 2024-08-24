@@ -1,0 +1,35 @@
+_id: req_d88a7620b912460aa721bd3de10e9b5e
+type: Request
+parentId: fld_a3a878f9d52845818aa377ad71af84f1
+modified: 1724533488023
+created: 1724533344358
+url: "{{ _.api.url }}/products/{id}"
+name: Read product
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9ed5dcf4df6f4ccdb9fb41f5d9ba9309
+    name: relations
+    value: images
+    description: ""
+  - id: pair_5e1c7105e50a4a858189429531d34f86
+    name: relations
+    value: orderRelations
+    description: ""
+  - id: pair_0c8582182dc54047986eb544c45ef3e5
+    name: id
+    value: 89da1ea7-ffc1-405c-b9df-945ba0a86aeb
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1715975879370.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
