@@ -1,0 +1,27 @@
+_id: req_14b5526fbf2d43e887dc84f2d37cd9ab
+type: Request
+parentId: fld_4b00ce41b148494d9601e314dbb388fc
+modified: 1724541290693
+created: 1724541252063
+url: "{{ _.api.url }}/users/{id}"
+name: Read user
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_514a452556684827ac9da12c5f0b1204
+    name: id
+    value: 9cd76a67-4b85-452e-a66f-32a455cc01b2
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1716303157336.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
