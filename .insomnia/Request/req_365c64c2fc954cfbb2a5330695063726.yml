@@ -1,7 +1,7 @@
 _id: req_365c64c2fc954cfbb2a5330695063726
 type: Request
 parentId: fld_5891789c52d247e3af85b00d4a9496a9
-modified: 1718809594788
+modified: 1724533177372
 created: 1716570504176
 url: "{{ _.api.url }}/orders"
 name: Read order list
@@ -62,6 +62,14 @@ parameters:
     value: ""
     description: ""
     disabled: true
+  - id: pair_6d5dd9dd3c8747fa89cd7167b146dbdf
+    name: relations
+    value: productRelations
+    description: ""
+  - id: pair_7edd9f51fa1c49c7a3e67516e874e609
+    name: relations
+    value: productRelations.product
+    description: ""
 headers: []
 authentication:
   type: bearer
