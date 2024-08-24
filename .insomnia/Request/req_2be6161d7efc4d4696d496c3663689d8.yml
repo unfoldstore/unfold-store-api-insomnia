@@ -1,0 +1,35 @@
+_id: req_2be6161d7efc4d4696d496c3663689d8
+type: Request
+parentId: fld_20de47a0d751436d9d59bc93cab95c60
+modified: 1724534155417
+created: 1724533790656
+url: "{{ _.api.url }}/products/89da1ea7-ffc1-405c-b9df-945ba0a86aeb/images/reorder"
+name: Reorder product images
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"orderedIds": [
+    		"9aa7517a-371f-45d9-8b71-2136b876e49c",
+    		"dd22eb4c-fc2b-4b1b-b664-d371cb864413",
+    		"5a53ceac-8129-49d0-a5d1-d12f77bb6c2a",
+    		"e526f8b9-5f50-4bab-9725-dfd2260c233a"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1715978852298.6094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

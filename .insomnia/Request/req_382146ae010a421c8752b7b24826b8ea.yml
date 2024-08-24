@@ -1,0 +1,33 @@
+_id: req_382146ae010a421c8752b7b24826b8ea
+type: Request
+parentId: fld_20de47a0d751436d9d59bc93cab95c60
+modified: 1724533696035
+created: 1724533606147
+url: "{{ _.api.url }}/products/89da1ea7-ffc1-405c-b9df-945ba0a86aeb/images/bulk"
+name: Delete many product images
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ids": [
+    		"f802112d-a52e-44ff-a7bf-17392653483d",
+    		"cdf60c4e-182a-4154-b33e-e9af96b0a57c"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1715979182623.9688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
